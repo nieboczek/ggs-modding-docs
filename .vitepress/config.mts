@@ -24,7 +24,7 @@ export default defineConfig({
         text: 'Modding',
         items: [
           { text: 'Setup', link: '/modding/setup' },
-          { text: 'Work in progress' }
+          { text: 'Searching Gamefiles', link: '/modding/searching-gamefiles'}
         ]
       },
       {
