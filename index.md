@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "GSS Modding Wiki"
   text: 
-  tagline: "Documentation on how to mod Grocery Store Simulator"
+  tagline: "Grocery Store Simulator Modding Documentation"
   actions:
     - theme: brand
       text: Beginner's Guide
@@ -16,10 +16,14 @@ hero:
 
 features:
   - title: Beginner's Guide
-    details: WIP
-  - title: Modding
-    details: WIP
-  - title: Miscellaneous
-    details: WIP
+    details: Get Started With Modding
+    link: /beginners-guide/installing-mods
+  - title: Lua Modding
+    details: Making Mods with Lua
+  - title: Blueprint Modding
+    details: Makign Mods with Blueprint
 ---
 
+## External Links
+- [GSS Modding Discord](https://discord.gg/5ENg4XGpPZ)
+- [Contribute On Github](https://github.com/nieboczek/gss-modding-wiki)

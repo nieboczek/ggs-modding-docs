@@ -1,2 +1,4 @@
-# gss-modding-wiki
-Documentation on how to mod Grocery Store Simulator
+# GSS Modding Wiki
+Grocery Store Simulator Modding Documentation
+
+### [The GSS Modding Wiki](https://nieboczek.github.io/gss-modding-wiki/)
