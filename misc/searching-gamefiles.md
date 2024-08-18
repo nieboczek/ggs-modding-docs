@@ -1,5 +1,5 @@
 # Searching Gamefiles
-
+This guide will tell you how to search for gamefiles.
 ## Installing Fmodel
 
 Install [Fmodel](https://fmodel.app/).
