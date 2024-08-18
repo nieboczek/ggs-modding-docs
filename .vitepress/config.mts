@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "GSS Modding Wiki",
   description: "Documentation on how to mod Grocery Store Simulator",
+  base: "/gss-modding-wiki/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -20,8 +21,9 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Developing mods',
+        text: 'Modding',
         items: [
+          { text: 'Setup', link: '/modding/setup' },
           { text: 'Work in progress' }
         ]
       },

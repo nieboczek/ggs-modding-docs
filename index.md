@@ -17,7 +17,7 @@ hero:
 features:
   - title: Beginner's Guide
     details: WIP
-  - title: Developing mods
+  - title: Modding
     details: WIP
   - title: Miscellaneous
     details: WIP

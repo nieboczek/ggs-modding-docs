@@ -1,0 +1,12 @@
+# Modding setup
+This guide will tell you how to setup your workspace for mod development.
+## Setting up
+> If you haven't installed the mod loader yet, go to [Installing mods](../beginners-guide/installing-mods.md).
+
+Launch the game with zDEV-UE4SS version of the mod loader installed.  
+If one of the windows is fully white, open `Grocery Store Simulator/Simulatorita/Binaries/Win64/UE4SS-settings.ini` and change `GraphicsAPI = opengl` to `GraphicsAPI = dx11`. Relaunch the game.  
+In the window with tabs on top, go to `Dumpers` and click `Generate Lua Types` and optionally `Dump CXX Headers`.  
+
+Download and install [Visual Studio Code](https://code.visualstudio.com/).  
+Open VSCode in the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.  
+You can now go to look at the other modding guides
