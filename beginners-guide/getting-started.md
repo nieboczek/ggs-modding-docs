@@ -1,4 +1,4 @@
-# Modding setup
+# Getting Started
 This guide will tell you how to setup your workspace for mod development.
 ## Setting up
 ::: info
