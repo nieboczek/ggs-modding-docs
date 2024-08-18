@@ -9,4 +9,4 @@ In the window with tabs on top, go to `Dumpers` and click `Generate Lua Types` a
 
 Download and install [Visual Studio Code](https://code.visualstudio.com/).  
 Open VSCode in the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.  
-You can now go to look at the other modding guides
+You can now go to look at the other modding guides.
