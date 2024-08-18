@@ -17,13 +17,13 @@ export default defineConfig({
         text: 'Beginner\'s Guide',
         items: [
           { text: 'Installing mods', link: '/beginners-guide/installing-mods' },
-          { text: 'Configuring mods', link: '/beginners-guide/configuring-mods' }
+          { text: 'Configuring mods', link: '/beginners-guide/configuring-mods' },
+          { text: 'Getting Started', link: '/beginners-guide/getting-started' }
         ]
       },
       {
         text: 'Modding',
         items: [
-          { text: 'Setup', link: '/modding/setup' },
           { text: 'Searching Gamefiles', link: '/modding/searching-gamefiles'}
         ]
       },
