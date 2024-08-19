@@ -55,6 +55,8 @@ In the message input type: `Mod Loaded!`.
 Click to `Compile` your blueprint and then save your `Mod Actor`.
 ![Compile](compile.png)
 
+Now you can compile your mod!
+# Not Finished Yet
 :::info Credits
 Some information and screenshots taken from [Dmgvol's UE Modding Guide](https://github.com/Dmgvol/UE_Modding/)
 :::
