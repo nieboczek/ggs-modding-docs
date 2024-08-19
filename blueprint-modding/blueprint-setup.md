@@ -3,22 +3,15 @@ This guide will tell you how to setup Unreal Engine for modding with blueprints.
 
 ## Setting up The Project
 Install [Unreal Engine 5.2](https://www.unrealengine.com/download).
+
 > [!WARNING]
 > You **MUST** use Unreal 5.2 as it is what the game runs on.
 
 Create a blank project named `Simulatorita`.
+
 ![Create Project](../media/create_project.png)
 
 Go to `Edit > Project Settings > Packaging`, and ensure you have the following settings.
-
-<!-- Probably Redundant due to screenshot -->
-<!-- | Setting                    | State    |
-|----------------------------|----------|
-| Use Pak File               | Enabled  |
-| Use to Store               | Enabled  |
-| Generate Chunks            | Enabled  |
-| Share Material Shader Code | Disabled |
-| Allow ChunkID assignmnets  | Enabled  | -->
 
 ![Project Settings](../media/project_settings.png)
 
@@ -36,6 +29,7 @@ Choose the `Actor` class.
 ![Actor class](../media/actor_class.png)
 
 Once the Blueprint is created, name it `ModActor`.
+
 ![Modactor](../media/modactor.png)
 
 Open your ModActor's `Event Graph`, right-click and add a `Custom Event`.
@@ -43,7 +37,7 @@ Open your ModActor's `Event Graph`, right-click and add a `Custom Event`.
 ![Custom Event](../media/custom_event.png)
 
 Name it `PrintToModLoader`, add a `String` input titled `Message`.
-![print](../media/print.png)
+![Print](../media/print.png)
 
 Drag off of the `Event Begin Play` node and search for `PrintToModLoader`.
 ![First Print](../media/first_print.png)

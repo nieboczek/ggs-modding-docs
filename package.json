@@ -8,6 +8,6 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "grep": "^0.1.0"
+    "medium-zoom": "^1.1.0"
   }
 }

@@ -11,11 +11,13 @@ Open the `config.lua` file using notepad.
 > On Windows 11 you should see an `Edit in Notepad` option after right clicking. You can click it to make the process easier.
 
 ![Explorer Select](../media/explorer_select.png)
-> Right click the config.lua file and select the option `Open with`.  
+
+Right click the config.lua file and select the option `Open with`.  
 If you see notepad click it
 
 ![Open With](../media/open_with.png)
-> Select notepad on the list, if it doesn't appear select the `Choose an app on your PC`.  
+
+Select notepad on the list, if it doesn't appear select the `Choose an app on your PC`.  
 Go to the path `C:\Windows\System32\` and select `notepad.exe` there.
 
 After you've opened the `config.lua` file. Start editing it.  
@@ -29,7 +31,7 @@ local config = {
 }
 return config
 ```
-> I'm using the config of ToggleSprint as example. Config highly depends on the mod you're using
+I'm using the config of ToggleSprint as example. Config highly depends on the mod you're using
 
 Look for equal signs. Comments above equal signs should explain what changing the config option does.  
 In this example I want to change the key to caps lock and don't need to press any CONTROL/ALT/SHIFT keys.  
