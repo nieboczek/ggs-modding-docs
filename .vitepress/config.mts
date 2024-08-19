@@ -8,7 +8,7 @@ export default defineConfig({
   transformHead: ({ pageData }) => {
     const head: HeadConfig[] = [];
 
-    head.push(['link', { rel: 'icon', href: "/favicon.ico" }]);
+    // head.push(['link', { rel: 'icon', href: "/favicon.ico" }]);
     head.push(['meta', { property: 'og:title', content: pageData.title }]);
     head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }]);
     head.push(['meta', { property: 'og:site_name', content: "GSS Modding Wiki" }]);
