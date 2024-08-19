@@ -6,7 +6,7 @@ Download [UE4SS from its GitHub page](https://github.com/UE4SS-RE/RE-UE4SS/relea
 You will want to download `UE4SS_VERSION.zip` or `zDEV-UE4SS_VERSION.zip` if you plan to make mods for Grocery Store Simulator.  
 After downloading, find Grocery Store Simulator's game folder by right-clicking Grocery Store Simulator in Steam and going into `Manage > Browse local files`
 
-![Browse local files](browse_local_files.png)
+![Browse local files](../media/browse_local_files.png)
 
 In the newly opened folder go to `Simulatorita/Binaries/Win64`.  
 Extract the zip contents from previously downloaded zip file to that folder.

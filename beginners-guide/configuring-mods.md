@@ -10,11 +10,11 @@ Open the `config.lua` file using notepad.
 > [!TIP]
 > On Windows 11 you should see an `Edit in Notepad` option after right clicking. You can click it to make the process easier.
 
-![Explorer Select](explorer_select.png)
+![Explorer Select](../media/explorer_select.png)
 > Right click the config.lua file and select the option `Open with`.  
 If you see notepad click it
 
-![Open With](open_with.png)
+![Open With](../media/open_with.png)
 > Select notepad on the list, if it doesn't appear select the `Choose an app on your PC`.  
 Go to the path `C:\Windows\System32\` and select `notepad.exe` there.
 
