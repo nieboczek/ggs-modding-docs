@@ -21,7 +21,7 @@ features:
   - title: Lua Modding
     details: Making Mods with Lua
   - title: Blueprint Modding
-    details: Makign Mods with Blueprint
+    details: Making Mods with Blueprint
 ---
 
 ## External Links

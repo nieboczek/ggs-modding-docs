@@ -1,6 +1,3 @@
----
-#outline: deep
----
 # Configuring mods
 This guide will tell you how to configure installed mods.
 
@@ -10,9 +7,8 @@ In the folder of that mod you should see a folder named `Scripts`, open it.
 You should see a `config.lua` file if you selected a configurable mod.  
 Open the `config.lua` file using notepad.
 
-::: tip
-On Windows 11 you should see an `Edit in Notepad` option after right clicking. You can click it to make the process easier.
-:::
+> [!TIP]
+> On Windows 11 you should see an `Edit in Notepad` option after right clicking. You can click it to make the process easier.
 
 ![Explorer Select](explorer_select.png)
 > Right click the config.lua file and select the option `Open with`.  
@@ -48,17 +44,17 @@ local config = {
 }
 return config
 ```
-To save press `Ctrl+S` in notepad, and you can now close it.
-::: tip
-`modifier_keys` is kind of a list in this example, you can store any amount of elements in a list.
-If you would want to press all modifier keys at once to trigger the event you would type:
-```lua
-modifier_keys = { ModifierKey.CONTROL, ModifierKey.ALT, ModifierKey.SHIFT }
-```
-:::
-::: tip
-You can reload mods and configs without reopening the game. How hot reload guide is [here](../misc/hot-reloading.md)
-:::
-::: info
-All type variations for `Key` and `ModifierKey` are [here](../misc/config-types.md)
-:::
+To save, press `Ctrl+S` in notepad, and you can now close it.
+
+> [!TIP]
+> `modifier_keys` is kind of a list in this example, you can store any amount of elements in a list.
+> If you would want to press all modifier keys at once to trigger the event you would type:
+> ```lua
+> modifier_keys = { ModifierKey.CONTROL, ModifierKey.ALT, ModifierKey.SHIFT }
+> ```
+
+> [!TIP]
+> You can reload mods and configs without reopening the game. How hot reload guide is [here](../misc/hot-reloading.md)
+
+> [!INFO]
+> All type variations for `Key` and `ModifierKey` are [here](../misc/config-types.md)
