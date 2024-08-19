@@ -4,9 +4,9 @@ This guide will tell you how to setup unreal engine for modding with blueprints.
 ## Setting up The Project
 
 Install [Unreal Engine 5.2](https://www.unrealengine.com/download).
-::: warning
-You **MUST** use Unreal 5.2 as it is what the game runs on.
-:::
+
+> [!warning]
+> You **MUST** use Unreal 5.2 as it is what the game runs on.
 
 Create a blank project named `Simulatorita`.
 ![Create Project](create_project.png)
@@ -57,9 +57,8 @@ Click to `Compile` your blueprint and then save your `Mod Actor`.
 
 Now you can build your mod!
 
-:::warning Building
-Check out [The Building Article](/blueprint-modding/building-mods).
-:::
-:::info Credits
-Some information and screenshots taken from [Dmgvol's UE Modding Guide](https://github.com/Dmgvol/UE_Modding/)
-:::
+> [!warning] Building
+> Check out [The Building Article](/blueprint-modding/building-mods).
+
+> [!info] Credits
+> Some information and screenshots taken from [Dmgvol's UE Modding Guide](https://github.com/Dmgvol/UE_Modding/)
