@@ -1,5 +1,4 @@
 # GSS Modding Wiki
-<<<<<<< HEAD
 [GSS Modding Wiki Page](https://nieboczek.github.io/gss-modding-wiki)
 ## How to contribute
 Fork the repository and apply changes.
