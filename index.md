@@ -22,6 +22,7 @@ features:
     details: Making Mods with Lua
   - title: Blueprint Modding
     details: Making Mods with Blueprint
+    link: /blueprint-modding/bp-setup
 ---
 
 ## External Links
