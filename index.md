@@ -20,6 +20,7 @@ features:
     link: /beginners-guide/installing-mods
   - title: Lua Modding
     details: Making Mods with Lua
+    link: /lua-modding/coding-lua-mod
   - title: Blueprint Modding
     details: Making Mods with Blueprint
     link: /blueprint-modding/bp-setup
