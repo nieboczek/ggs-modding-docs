@@ -5,18 +5,19 @@ export default defineConfig({
   title: "GSS Modding Wiki",
   description: "Grocery Store Simulator Modding Documentation",
   base: "/gss-modding-wiki/",
-  transformHead: ({ pageData }) => {
-    const head: HeadConfig[] = [];
+  // transformHead: ({ pageData }) => {
+  //   // TODO: Fix this?
+  //   const head: HeadConfig[] = [];
 
-    // head.push(['link', { rel: 'icon', href: "/favicon.ico" }]);
-    head.push(['meta', { property: 'og:title', content: pageData.title }]);
-    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }]);
-    head.push(['meta', { property: 'og:site_name', content: "GSS Modding Wiki" }]);
-    head.push(['meta', { property: 'og:image', content: 'https://nieboczek.github.io/gss-modding-wiki/media/icon.png' }]);
-    head.push(['meta', { name: 'theme-color', content: "#ff3600" }]);
+  //   // head.push(['link', { rel: 'icon', href: "/favicon.ico" }]);
+  //   head.push(['meta', { property: 'og:title', content: pageData.title }]);
+  //   head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }]);
+  //   head.push(['meta', { property: 'og:site_name', content: "GSS Modding Wiki" }]);
+  //   // head.push(['meta', { property: 'og:image', content: 'https://nieboczek.github.io/gss-modding-wiki/media/icon.png' }]);
+  //   head.push(['meta', { name: 'theme-color', content: "#fee800" }]);
 
-    return head;
-  },
+  //   return head;
+  // },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
