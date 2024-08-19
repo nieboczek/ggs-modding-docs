@@ -4,7 +4,7 @@ This guide will tell you how to install mod loader and mods for Grocery Store Si
 ## Mod loader installation
 Download [UE4SS from its GitHub page](https://github.com/UE4SS-RE/RE-UE4SS/releases/latest).  
 You will want to download `UE4SS_VERSION.zip` or `zDEV-UE4SS_VERSION.zip` if you plan to make mods for Grocery Store Simulator.  
-After downloading, find Grocery Store Simulator's game folder by right-clicking it Grocery Store Simulator in Steam and going into **Manage > Browse local files**
+After downloading, find Grocery Store Simulator's game folder by right-clicking Grocery Store Simulator in Steam and going into `Manage > Browse local files`
 
 ![Browse local files](browse_local_files.png)
 

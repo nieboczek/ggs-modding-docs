@@ -24,6 +24,7 @@ export default defineConfig({
       {
         text: 'Modding',
         items: [
+          { text: 'Coding a Lua mod', link: '/modding/coding-lua-mod' },
           { text: 'Searching Gamefiles', link: '/modding/searching-gamefiles'}
         ]
       },
