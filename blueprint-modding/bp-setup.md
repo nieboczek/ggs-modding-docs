@@ -39,6 +39,7 @@ Once the Blueprint is created, name it `ModActor`.
 ![Modactor](modactor.png)
 
 Open your ModActor's `Event Graph`, right-click and add a `Custom Event`.
+
 ![Custom Event](custom_event.png)
 
 Name it `PrintToModLoader`, add a `String` input titled `Message`.
