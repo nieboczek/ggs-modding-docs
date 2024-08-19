@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "GSS Modding Wiki",
-  description: "Documentation on how to mod Grocery Store Simulator",
+  description: "Grocery Store Simulator Modding Documentation",
   base: "/gss-modding-wiki/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -22,14 +22,21 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Modding',
+        text: 'Lua Modding',
         items: [
-          { text: 'Searching Gamefiles', link: '/modding/searching-gamefiles'}
+          { text: 'WIP'}
+        ]
+      },
+      {
+        text: 'Blueprint Modding',
+        items: [
+          { text: 'Blueprint Setup', link: '/blueprint-modding/bp-setup'}
         ]
       },
       {
         text: "Miscellaneous",
         items: [
+          { text: 'Searching Gamefiles', link: '/misc/searching-gamefiles'},
           { text: 'Hot reloading', link: '/misc/hot-reloading' },
           { text: 'Config types', link: '/misc/config-types' }
         ]
