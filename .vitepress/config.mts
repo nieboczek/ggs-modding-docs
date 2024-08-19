@@ -24,20 +24,20 @@ export default defineConfig({
       {
         text: 'Lua Modding',
         items: [
-          { text: 'WIP'}
+          { text: 'Coding a Lua mod', link: '/lua-modding/coding-lua-mod' },
         ]
       },
       {
         text: 'Blueprint Modding',
         items: [
-          { text: 'Blueprint Setup', link: '/blueprint-modding/bp-setup'},
-          { text: 'Building Mods', link: '/blueprint-modding/building-mods'}
+          { text: 'Blueprint Setup', link: '/blueprint-modding/bp-setup' },
+          { text: 'Building Mods', link: '/blueprint-modding/building-mods' }
         ]
       },
       {
         text: "Miscellaneous",
         items: [
-          { text: 'Searching Gamefiles', link: '/misc/searching-gamefiles'},
+          { text: 'Searching Gamefiles', link: '/misc/searching-gamefiles' },
           { text: 'Hot reloading', link: '/misc/hot-reloading' },
           { text: 'Config types', link: '/misc/config-types' }
         ]

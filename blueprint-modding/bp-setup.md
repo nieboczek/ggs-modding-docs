@@ -1,11 +1,9 @@
 # Blueprint Setup
-This guide will tell you how to setup unreal engine for modding with blueprints.
+This guide will tell you how to setup Unreal Engine for modding with blueprints.
 
 ## Setting up The Project
-
 Install [Unreal Engine 5.2](https://www.unrealengine.com/download).
-
-> [!warning]
+> [!WARNING]
 > You **MUST** use Unreal 5.2 as it is what the game runs on.
 
 Create a blank project named `Simulatorita`.
@@ -40,7 +38,8 @@ Choose the `Actor` class.
 Once the Blueprint is created, name it `ModActor`.
 ![Modactor](modactor.png)
 
-Open your ModActor's `Event Graph`, Right-click and add a `Custom Event`.
+Open your ModActor's `Event Graph`, right-click and add a `Custom Event`.
+
 ![Custom Event](custom_event.png)
 
 Name it `PrintToModLoader`, add a `String` input titled `Message`.
@@ -55,10 +54,8 @@ In the message input type: `Mod Loaded!`.
 Click to `Compile` your blueprint and then save your `Mod Actor`.
 ![Compile](compile.png)
 
-Now you can build your mod!
+Now you can build your mod!  
+Check out [the building guide](/blueprint-modding/building-mods).
 
-> [!warning] Building
-> Check out [The Building Article](/blueprint-modding/building-mods).
-
-> [!info] Credits
+> [!NOTE]
 > Some information and screenshots taken from [Dmgvol's UE Modding Guide](https://github.com/Dmgvol/UE_Modding/)
