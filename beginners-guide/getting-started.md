@@ -10,6 +10,9 @@ Launch the game with zDEV-UE4SS version of the mod loader installed.
 
 In the window with tabs on top, go to `Dumpers` and click `Generate Lua Types` and optionally `Dump CXX Headers`.  
 
+> [!IMPORTANT]
+> You will need to do this every time the game updates to get the latest types
+
 > [!NOTE]
 > If you want to hide the additional windows, open `Grocery Store Simulator/Simulatorita/Binaries/Win64/UE4SS-settings.ini` and change ones to zeros here:
 > ```ini

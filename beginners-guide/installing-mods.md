@@ -19,6 +19,7 @@ Download a mod from [NexusMods](https://nexusmods.com/grocerystoresimulator) or 
 Go to the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.  
 Extract the contents from the mod's zip to that folder.  
 Open the `mods.txt` file and add `[MODNAME] : 1` at the end of the file to enable that mod
+
 > [!WARNING]
 > `[MODNAME]` should be the name of the folder in the zip file.
 
