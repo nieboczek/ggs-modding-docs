@@ -29,8 +29,13 @@ Choose the `Actor` class.
 ![Actor class](../media/actor_class.png)
 
 Once the Blueprint is created, name it `ModActor`.
-
 ![Modactor](../media/modactor.png)
+
+Next, right-click and create a `Miscallenaious > Data Asset` with the `PrimaryAssetLabel` class.
+![Data asset](../media/data_asset.png)
+
+Open the `NewDataAsset` and edit it accordingly.
+![New Data Asset](../media/new_data_asset.png)
 
 Open your ModActor's `Event Graph` and create 3 `String` Variables.
 ![Metadata](../media/metadata.png)
