@@ -1,3 +1,6 @@
+---
+next: false
+---
 # Getting Started
 This guide will tell you how to setup your workspace for mod development.
 > [!IMPORTANT]
@@ -16,19 +19,17 @@ In the window with tabs on top, go to `Dumpers` and click `Generate Lua Types` a
 > [!NOTE]
 > If you want to hide the additional windows, open `Grocery Store Simulator/Simulatorita/Binaries/Win64/UE4SS-settings.ini` and change ones to zeros here:
 > ```ini
-> ConsoleEnabled = 0
-> GuiConsoleEnabled = 0 
-> GuiConsoleVisible = 0 
+> ConsoleEnabled = 1 // [!code --]
+> GuiConsoleEnabled = 1 // [!code --]
+> GuiConsoleVisible = 1 // [!code --]
+> ConsoleEnabled = 0 // [!code ++]
+> GuiConsoleEnabled = 0 // [!code ++]
+> GuiConsoleVisible = 0 // [!code ++]
 > ```
 
 > [!NOTE]
 > You won't need the black background console, you can disable it in `Grocery Store Simulator/Simulatorita/Binaries/Win64/UE4SS-settings.ini`:
 > ```ini
-> ConsoleEnabled = 0
+> ConsoleEnabled = 1 // [!code --]
+> ConsoleEnabled = 0 // [!code ++]
 > ```
-
-
-Download and install [Visual Studio Code](https://code.visualstudio.com/). 
- 
-Open VSCode in the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.  
-You can now go to look at the other modding guides.

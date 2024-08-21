@@ -1,3 +1,7 @@
+---
+prev: false
+next: false
+---
 # Searching Gamefiles
 This guide will tell you how to search gamefiles using FModel.
 
@@ -11,7 +15,7 @@ Then you can open FModel and click the arrow to `Add Undetected Game`.
 Set the filepath to `Grocery Store Simulator/` and press the plus to add the game.
 Then, select `GAME_UE5_2 (536870944)` from the UE Versions drop down.
 
-![alt text](../media/add_game.png)
+![Add Game](../media/add_game.png)
 
 > [!NOTE]
 > If you already have FModel installed, you will have to select `Directory` and `Selector` at the top of the window.
@@ -25,7 +29,6 @@ If you want to be able to preview audio files from the game, you will need to in
 
 To install, download the latest release and extract the files to `FModel/Output/.data/`.
 
-#### Now you should be able to search through the game files!
-
+Now you should be able to search through the game files!
 - Gamefiles are in `Simulatorita-Windows.utoc`
 - Translations are in `Simulatorita-Windows.pak`

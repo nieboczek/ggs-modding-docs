@@ -1,3 +1,6 @@
+---
+prev: false
+---
 # Blueprint Setup
 This guide will tell you how to setup Unreal Engine for modding with blueprints.
 
@@ -23,42 +26,55 @@ In the `Content Browser`, create a new folder called `Mods`.
 Then, create your mod folder and call it whatever you like, such as `MyMod`.
 
 Right-click and create a new `Blueprint Class`.
+
 ![Blueprint Class](../media/blueprint_class.png)
 
 Choose the `Actor` class.
+
 ![Actor class](../media/actor_class.png)
 
 Once the Blueprint is created, name it `ModActor`.
+
 ![Modactor](../media/modactor.png)
 
 Next, right-click and create a `Miscallenaious > Data Asset` with the `PrimaryAssetLabel` class.
+
 ![Data asset](../media/data_asset.png)
 
 Open the `NewDataAsset` and edit it accordingly.
+
 ![New Data Asset](../media/new_data_asset.png)
 
 Open your ModActor's `Event Graph` and create 3 `String` Variables.
+
 ![Metadata](../media/metadata.png)
 
 Click to `Compile` your blueprint and then you can edit each Variable.
+
 ![Compile](../media/compile.png)
 
 Each value can be changed under `Default Value`.
+
 ![Mod Author](../media/mod_author.png)
 
 Right-click and add a `Custom Event`.
+
 ![Custom Event](../media/custom_event.png)
 
 Name it `PrintToModLoader`, add a `String` input titled `Message`.
+
 ![Print](../media/print.png)
 
 Drag off of the `Event Begin Play` node and search for `PrintToModLoader`.
+
 ![First Print](../media/first_print.png)
 
 In the message input type: `Mod Loaded!`.
+
 ![Mod Loaded Print](../media/mod_loaded_print.png)
 
 Make sure to `Compile` your blueprint and then save your `Mod Actor`.
+
 ![Compile](../media/compile.png)
 
 Now you can build your mod!  

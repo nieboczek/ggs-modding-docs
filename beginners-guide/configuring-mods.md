@@ -8,11 +8,11 @@ You should see a `config.lua` file if you selected a configurable mod.
 Open the `config.lua` file using notepad.
 
 > [!TIP]
-> On Windows 11 you should see an `Edit in Notepad` option after right clicking. You can click it to make the process easier.
+> On Windows 11 you should see an `Edit in Notepad` option after right-clicking. You can click it to make the process easier.
 
 ![Explorer Select](../media/explorer_select.png)
 
-Right click the config.lua file and select the option `Open with`.  
+Right-click the `config.lua` file and select the option `Open with`.  
 If you see notepad click it
 
 ![Open With](../media/open_with.png)
@@ -33,16 +33,17 @@ return config
 ```
 I'm using the config of ToggleSprint as example. Config highly depends on the mod you're using
 
-Look for equal signs. Comments above equal signs should explain what changing the config option does.  
-In this example I want to change the key to caps lock and don't need to press any CONTROL/ALT/SHIFT keys.  
-To do that I changed `key = Key.F2` to `key = Key.CAPS_LOCK` and `modifier_keys = { ModifierKey.CONTROL }` to `modifier_keys = {}`.  
-It should now look something like this:
+Look for equal signs. Comments above equal signs should explain what changing the config option does.
+In this example I want to change the key to caps lock and don't need to press any control/alt/shift keys.
+To do that I changed:  
 ```lua
 local config = {
     -- Key that needs to be pressed with the modifier keys to trigger the money addition
-    key = Key.CAPS_LOCK,
+    key = Key.F2, -- [!code --]
+    key = Key.CAPS_LOCK, -- [!code ++]
     -- Modifier keys that need to be pressed with the key to trigger the money addition
-    modifier_keys = {}
+    modifier_keys = { ModifierKey.CONTROL } -- [!code --]
+    modifier_keys = {} -- [!code ++]
 }
 return config
 ```

@@ -1,10 +1,18 @@
+---
+prev: false
+---
 # Coding a Lua mod
 This guide will tell you how to make a simple Lua mod.
 
 > [!IMPORTANT]
 > Read [Getting Started](../beginners-guide/getting-started.md) if you haven't already
 
-## Creating mod folder
+## Installing VSCode
+Download and install [Visual Studio Code](https://code.visualstudio.com/). 
+
+Open VSCode in the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.  
+You can now go to look at the other modding guides.
+
 In VSCode you will want to create a mod folder with a name you want your mod to be preferably using `PascalCase`.
 Create a `Scripts` folder in the folder you just made. Inside the `Scripts` folder you will want to make `main.lua` and optionally `config.lua` if you want your mod to be configurable.  
 For example I created a `MoneyPrinter` folder and put only `main.lua` in it's `Scripts` folder
@@ -29,4 +37,4 @@ I don't know, but you can use the VSCode's Search through multiple files feature
 Press Ctrl+Shift+F to open the search tab and type something like `Box` to see if there's anything useful.
 
 > [!IMPORTANT]
-> It's important to note that it will only work if you pressed `Generate Lua Types` in the UE4SS GUI console and you opened VSCode in the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.
+> The search function will only generate useful results if you pressed `Generate Lua Types` in the UE4SS GUI console and you opened VSCode in the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.

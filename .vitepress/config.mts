@@ -33,10 +33,6 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/nieboczek/gss-modding-wiki' },
       { icon: 'discord', link: 'https://discord.gg/5ENg4XGpPZ' }
     ],
-    docFooter: {
-      prev: false,
-      next: false
-    },
     sidebar: [
       {
         text: 'Beginner\'s Guide',
@@ -50,6 +46,7 @@ export default defineConfig({
         text: 'Lua Modding',
         items: [
           { text: 'Coding a Lua mod', link: '/lua-modding/coding-lua-mod' },
+          { text: 'Adding configurability', link: '/lua-modding/adding-configurability' }
         ]
       },
       {
