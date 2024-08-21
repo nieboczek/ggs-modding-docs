@@ -17,7 +17,6 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    outline: 'deep',
     search: {
       provider: 'local'
     },
@@ -38,28 +37,33 @@ export default defineConfig({
         text: 'Beginner\'s Guide',
         items: [
           { text: 'Installing mods', link: '/beginners-guide/installing-mods' },
-          { text: 'Configuring mods', link: '/beginners-guide/configuring-mods' },
-          { text: 'Getting Started', link: '/beginners-guide/getting-started' }
+          { text: 'Configuring mods', link: '/beginners-guide/configuring-mods' }
         ]
       },
       {
-        text: 'Lua Modding',
+        text: 'Modding',
         items: [
-          { text: 'Coding a Lua mod', link: '/lua-modding/coding-lua-mod' },
-          { text: 'Adding configurability', link: '/lua-modding/adding-configurability' }
-        ]
-      },
-      {
-        text: 'Blueprint Modding',
-        items: [
-          { text: 'Blueprint Setup', link: '/blueprint-modding/blueprint-setup' },
-          { text: 'Building Mods', link: '/blueprint-modding/building-mods' }
-        ]
-      },
-      {
-        text: 'Miscellaneous Modding',
-        items: [
-          { text: 'Searching Gamefiles', link: '/misc-modding/searching-gamefiles' }
+          { text: 'Getting started', link: '/modding/getting-started' },
+          {
+            text: 'Lua Modding',
+            items: [
+              { text: 'Coding a Lua mod', link: '/modding/lua/coding-lua-mod' },
+              { text: 'Adding configurability', link: '/modding/lua/adding-configurability' }
+            ]
+          },
+          {
+            text: 'Blueprint Modding',
+            items: [
+              { text: 'Blueprint setup', link: '/modding/blueprint/blueprint-setup' },
+              { text: 'Building mods', link: '/modding/blueprint/building-mods' }
+            ]
+          },
+          {
+            text: 'Miscellaneous Modding',
+            items: [
+              { text: 'Searching game files', link: '/modding/misc/searching-game-files' }
+            ]
+          }
         ]
       },
       {
@@ -71,4 +75,4 @@ export default defineConfig({
       }
     ]
   }
-})
+});

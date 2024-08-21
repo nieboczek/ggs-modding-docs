@@ -4,16 +4,11 @@ prev: false
 # Coding a Lua mod
 This guide will tell you how to make a simple Lua mod.
 
-> [!IMPORTANT]
-> Read [Getting Started](../beginners-guide/getting-started.md) if you haven't already
-
 ## Installing VSCode
-Download and install [Visual Studio Code](https://code.visualstudio.com/). 
+Download and install [Visual Studio Code](https://code.visualstudio.com/).
+Open VSCode in the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.
 
-Open VSCode in the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.  
-You can now go to look at the other modding guides.
-
-In VSCode you will want to create a mod folder with a name you want your mod to be preferably using `PascalCase`.
+You will want to create a mod folder with a name you want your mod to have, preferably using `PascalCase`.
 Create a `Scripts` folder in the folder you just made. Inside the `Scripts` folder you will want to make `main.lua` and optionally `config.lua` if you want your mod to be configurable.  
 For example I created a `MoneyPrinter` folder and put only `main.lua` in it's `Scripts` folder
 

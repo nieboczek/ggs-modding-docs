@@ -1,7 +1,10 @@
+---
+next: false
+---
 # Configuring mods
 This guide will tell you how to configure installed mods.
 
-## Editing the config.lua file
+## Editing the config file
 Select a configurable mod from your `Mods` folder and go into it.  
 In the folder of that mod you should see a folder named `Scripts`, open it.
 You should see a `config.lua` file if you selected a configurable mod.  
@@ -9,6 +12,9 @@ Open the `config.lua` file using notepad.
 
 > [!TIP]
 > On Windows 11 you should see an `Edit in Notepad` option after right-clicking. You can click it to make the process easier.
+
+> [!NOTE]
+> To enable file extensions go to `View > Show > File name extensions` (Windows 11)
 
 ![Explorer Select](../media/explorer_select.png)
 
@@ -20,26 +26,30 @@ If you see notepad click it
 Select notepad on the list, if it doesn't appear select the `Choose an app on your PC`.  
 Go to the path `C:\Windows\System32\` and select `notepad.exe` there.
 
-After you've opened the `config.lua` file. Start editing it.  
-You should see something like this:
+After you've opened the `config.lua` file, you should see something like this:
 ```lua
 local config = {
+    -- Amount of cash to add when keybind is pressed
+    add_cash_amount = 36.34,
     -- Key that needs to be pressed with the modifier keys to trigger the money addition
-    key = Key.F2,
+    key = Key.F1,
     -- Modifier keys that need to be pressed with the key to trigger the money addition
     modifier_keys = { ModifierKey.CONTROL }
 }
 return config
 ```
-I'm using the config of ToggleSprint as example. Config highly depends on the mod you're using
+I'm using the config of MoneyAdder as an example. Config highly depends on the mod you're using
 
 Look for equal signs. Comments above equal signs should explain what changing the config option does.
-In this example I want to change the key to caps lock and don't need to press any control/alt/shift keys.
+In this example I want to change the amount of cash added to `107.38`, the key to caps lock and no modifier keys.
 To do that I changed:  
 ```lua
 local config = {
+    -- Amount of cash to add when keybind is pressed
+    add_cash_amount = 36.34, -- [!code --]
+    add_cash_amount = 107.38, -- [!code ++]
     -- Key that needs to be pressed with the modifier keys to trigger the money addition
-    key = Key.F2, -- [!code --]
+    key = Key.F1, -- [!code --]
     key = Key.CAPS_LOCK, -- [!code ++]
     -- Modifier keys that need to be pressed with the key to trigger the money addition
     modifier_keys = { ModifierKey.CONTROL } -- [!code --]

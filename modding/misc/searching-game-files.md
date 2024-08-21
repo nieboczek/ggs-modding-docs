@@ -2,7 +2,7 @@
 prev: false
 next: false
 ---
-# Searching Gamefiles
+# Searching game files
 This guide will tell you how to search gamefiles using FModel.
 
 ## Installing FModel
@@ -24,7 +24,6 @@ Open the settings at the top of the window and enable `Local Mapping File`.
 Set the `Mapping File Path` to `Grocery Store Simulator/Binaries/Win64/Mappings.usmap`
 
 ## Audio
-
 If you want to be able to preview audio files from the game, you will need to install the [Bink Audio Tool](https://github.com/Keisawaakira/BinkadecWithWavHeader) for FModel.
 
 To install, download the latest release and extract the files to `FModel/Output/.data/`.

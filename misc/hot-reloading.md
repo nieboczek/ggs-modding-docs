@@ -1,3 +1,7 @@
+---
+prev: false
+next: false
+---
 # Hot reloading
 This guide will tell you how to reload mods and configs without reopening the game.
 
@@ -8,6 +12,6 @@ This guide will tell you how to reload mods and configs without reopening the ga
 Go to `Grocery Store Simulator/Simulatorita/Binaries/Win64` and open the `UE4SS-settings.ini` file using notepad inside of that folder.  
 
 > [!NOTE]
-> How to open a file with notepad has been explained [here](../beginners-guide/configuring-mods.md#editing-the-configlua-file)
+> How to open a file with notepad has been explained [here](../beginners-guide/configuring-mods.md#editing-the-config-file)
 
 Change `EnableHotReloadSystem = 0` to `EnableHotReloadSystem = 1`.

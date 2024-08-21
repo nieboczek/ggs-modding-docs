@@ -18,26 +18,26 @@ hero:
 ---
 
 <script setup lang="ts">
-  import Home from './.vitepress/components/Home.vue'
-  import HomeGroup from './.vitepress/components/HomeGroup.vue'
-  import HomeItem from './.vitepress/components/HomeItem.vue'
+  import Home from './.vitepress/components/Home.vue';
+  import HomeGroup from './.vitepress/components/HomeGroup.vue';
+  import HomeItem from './.vitepress/components/HomeItem.vue';
 </script>
 
 <Home>
-  <!-- Please keep the amount of home items in every group the same -->
+  <!-- Please keep the amount of HomeItems in every group the same -->
   <HomeGroup title="Beginner's Guide">
-    <HomeItem name="Installing mods" link="./beginners-guide/installing-mods" />
-    <HomeItem name="Configuring mods" link="./beginners-guide/configuring-mods" />
-    <HomeItem name="Getting Started" link="./beginners-guide/getting-started" />
-  </HomeGroup>
-  <HomeGroup title="Lua Modding">
-    <HomeItem name="Coding a Lua mod" link="./lua-modding/coding-lua-mod" />
-    <HomeItem />
+    <HomeItem name="Installing mods" link="/beginners-guide/installing-mods" />
+    <HomeItem name="Configuring mods" link="/beginners-guide/configuring-mods" />
     <HomeItem />
   </HomeGroup>
-  <HomeGroup title="Blueprint Modding">
-    <HomeItem name="Blueprint setup" link="./blueprint-modding/blueprint-setup" />
-    <HomeItem name="Building mods" link="./blueprint-modding/building-mods" />
+  <HomeGroup title="Modding">
+    <HomeItem name="Lua modding" link="/modding/lua/coding-lua-mod" />
+    <HomeItem name="Blueprint modding" link="/modding/blueprint/blueprint-setup" />
+    <HomeItem name="Miscellaneous modding" link="/modding/misc/searching-game-files" />
+  </HomeGroup>
+  <HomeGroup title="Miscellaneous">
+    <HomeItem name="Hot reloading" link="/misc/hot-reloading" />
+    <HomeItem name="Config types" link="/misc/config-types" />
     <HomeItem />
   </HomeGroup>
 </Home>
