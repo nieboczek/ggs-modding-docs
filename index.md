@@ -26,18 +26,18 @@ hero:
 <Home>
   <!-- Please keep the amount of HomeItems in every group the same -->
   <HomeGroup title="Beginner's Guide">
-    <HomeItem name="Installing mods" link="/gss-modding-wiki/beginners-guide/installing-mods" />
-    <HomeItem name="Configuring mods" link="/gss-modding-wiki/beginners-guide/configuring-mods" />
+    <HomeItem name="Installing mods" link="./beginners-guide/installing-mods" />
+    <HomeItem name="Configuring mods" link="./beginners-guide/configuring-mods" />
     <HomeItem />
   </HomeGroup>
   <HomeGroup title="Modding">
-    <HomeItem name="Lua modding" link="/gss-modding-wiki/modding/lua/coding-lua-mod" />
-    <HomeItem name="Blueprint modding" link="/gss-modding-wiki/modding/blueprint/blueprint-setup" />
-    <HomeItem name="Miscellaneous modding" link="/gss-modding-wiki/modding/misc/searching-game-files" />
+    <HomeItem name="Lua modding" link="./modding/lua/coding-lua-mod" />
+    <HomeItem name="Blueprint modding" link="./modding/blueprint/blueprint-setup" />
+    <HomeItem name="Miscellaneous modding" link="./modding/misc/searching-game-files" />
   </HomeGroup>
   <HomeGroup title="Miscellaneous">
-    <HomeItem name="Hot reloading" link="/gss-modding-wiki/misc/hot-reloading" />
-    <HomeItem name="Config types" link="/gss-modding-wiki/misc/config-types" />
+    <HomeItem name="Hot reloading" link="./misc/hot-reloading" />
+    <HomeItem name="Config types" link="./misc/config-types" />
     <HomeItem />
   </HomeGroup>
 </Home>
