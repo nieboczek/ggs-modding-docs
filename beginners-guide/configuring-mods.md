@@ -10,11 +10,11 @@ In the folder of that mod you should see a folder named `Scripts`, open it.
 You should see a `config.lua` file if you selected a configurable mod.  
 Open the `config.lua` file using notepad.
 
-> [!TIP]
-> On Windows 11 you should see an `Edit in Notepad` option after right-clicking. You can click it to make the process easier.
-
 > [!NOTE]
 > To enable file extensions go to `View > Show > File name extensions` (Windows 11)
+
+> [!TIP]
+> On Windows 11 you should see an `Edit in Notepad` option after right-clicking. You can click it to make the process easier.
 
 ![Explorer Select](../media/explorer_select.png)
 
@@ -40,7 +40,7 @@ return config
 ```
 I'm using the config of MoneyAdder as an example. Config highly depends on the mod you're using
 
-Look for equal signs. Comments above equal signs should explain what changing the config option does.
+Look for double dashes (`--`). Text after double dashes should explain what changing the config option does.
 In this example I want to change the amount of cash added to `107.38`, the key to caps lock and no modifier keys.
 To do that I changed:  
 ```lua

@@ -11,6 +11,9 @@ After downloading, find Grocery Store Simulator's game folder by right-clicking 
 In the newly opened folder go to `Simulatorita/Binaries/Win64`.  
 Extract the zip contents from previously downloaded zip file to that folder.
 
+> [!WARNING]
+> Do not extract the zip contents to a subfolder. Zip contents should be in `Grocery Store Simulator/Simulatorita/Binaries/Win64`.
+
 > [!NOTE]
 > If you downloaded the zDEV version additional 2 windows may pop up. You can ignore them.
 

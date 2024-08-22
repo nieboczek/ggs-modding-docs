@@ -12,6 +12,12 @@ You will want to create a mod folder with a name you want your mod to have, pref
 Create a `Scripts` folder in the folder you just made. Inside the `Scripts` folder you will want to make `main.lua` and optionally `config.lua` if you want your mod to be configurable.  
 For example I created a `MoneyPrinter` folder and put only `main.lua` in it's `Scripts` folder
 
+Add this to the end of `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods/mods.txt`: 
+```
+[YOURMODFOLDERNAME] : 1 // [!code ++]
+```
+and replace `[YOURMODFOLDERNAME]` with your mod's actual folder name.
+
 Let's assume you want to create a mod that prints (writes) the current money to the GUI console when you press Shift+F2.
 ```lua
 -- When Shift+F2 is pressed
