@@ -28,7 +28,7 @@ hero:
   <HomeGroup title="Beginner's Guide">
     <HomeItem name="Installing mods" link="./beginners-guide/installing-mods" />
     <HomeItem name="Configuring mods" link="./beginners-guide/configuring-mods" />
-    <HomeItem />
+    <HomeItem name="Updating mods" link="./beginners-guide/updating-mods" />
   </HomeGroup>
   <HomeGroup title="Modding">
     <HomeItem name="Lua modding" link="./modding/lua/coding-lua-mod" />

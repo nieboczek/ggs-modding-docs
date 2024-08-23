@@ -1,6 +1,3 @@
----
-next: false
----
 # Configuring mods
 This guide will tell you how to configure installed mods.
 

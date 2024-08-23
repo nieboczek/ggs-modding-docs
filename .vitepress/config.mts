@@ -37,7 +37,8 @@ export default defineConfig({
         text: 'Beginner\'s Guide',
         items: [
           { text: 'Installing mods', link: '/beginners-guide/installing-mods' },
-          { text: 'Configuring mods', link: '/beginners-guide/configuring-mods' }
+          { text: 'Configuring mods', link: '/beginners-guide/configuring-mods' },
+          { text: 'Updating mods', link: '/beginners-guide/updating-mods' }
         ]
       },
       {
