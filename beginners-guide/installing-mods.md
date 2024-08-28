@@ -1,5 +1,6 @@
 # Installing mods
 This guide will tell you how to install mod loader and mods for Grocery Store Simulator.
+The video version is [here](https://youtu.be/bDs_iYeMQOk).
 
 ## Mod loader installation
 Download [UE4SS from its GitHub page](https://github.com/UE4SS-RE/RE-UE4SS/releases/latest).  
