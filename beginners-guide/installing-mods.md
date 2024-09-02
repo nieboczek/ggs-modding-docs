@@ -1,5 +1,5 @@
 # Installing mods
-This guide will tell you how to install mod loader and mods for Grocery Store Simulator.
+This guide will tell you how to install mod loader and mods for Grocery Store Simulator.  
 The video version is [here](https://youtu.be/bDs_iYeMQOk).
 
 ## Mod loader installation
@@ -26,4 +26,3 @@ Open the `mods.txt` file and add `[MODNAME] : 1` at the end of the file to enabl
 
 > [!WARNING]
 > `[MODNAME]` should be the name of the folder in the zip file.
-
