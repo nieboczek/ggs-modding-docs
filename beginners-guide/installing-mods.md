@@ -18,11 +18,19 @@ Extract the zip contents from previously downloaded zip file to that folder.
 > [!NOTE]
 > If you downloaded the zDEV version additional 2 windows may pop up. You can ignore them.
 
-## Mod installation
-Download a mod from [NexusMods](https://nexusmods.com/grocerystoresimulator) or any source you trust.  
-Go to the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.  
+## Lua mod installation
+Most mods are Lua mods, if the creator mentioned that the mod is a blueprint mod, use [this](#blueprint-mod-installation) instead.
+
+Download a Lua mod from [NexusMods](https://nexusmods.com/grocerystoresimulator) or any source you trust.  
+Go to the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.
 Extract the contents from the mod's zip to that folder.  
-Open the `mods.txt` file and add `[MODNAME] : 1` at the end of the file to enable that mod
+Open the `mods.txt` file and add `MOD_NAME : 1` at the end of the file to enable that mod
 
 > [!WARNING]
-> `[MODNAME]` should be the name of the folder in the zip file.
+> `MOD_NAME` should be the name of the folder in the zip file.
+
+## Blueprint mod installation
+Download a blueprint mod from [NexusMods](https://nexusmods.com/grocerystoresimulator) or any source you trust.  
+Go to the `Grocery Store Simulator/Simulatorita/Content/Paks/LogicMods` folder.
+Extract the contents from the mod's zip to that folder.  
+The mod will be ran automatically after starting the game.

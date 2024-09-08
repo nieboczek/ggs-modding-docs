@@ -56,7 +56,7 @@ export default defineConfig({
             text: 'Blueprint Modding',
             items: [
               { text: 'Blueprint setup', link: '/modding/blueprint/blueprint-setup' },
-              { text: 'Building mods', link: '/modding/blueprint/building-mods' }
+              { text: 'Packaging mods', link: '/modding/blueprint/packaging-mods' }
             ]
           },
           {

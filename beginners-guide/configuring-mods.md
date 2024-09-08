@@ -64,7 +64,7 @@ To save, press `Ctrl+S` in notepad, and you can now close it.
 > ```
 
 > [!TIP]
-> You can reload mods and configs without reopening the game. How hot reload guide is [here](../misc/hot-reloading.md)
+> You can reload mods and configs without reopening the game. The hot reloading guide is [here](../misc/hot-reloading.md)
 
 > [!TIP]
 > All type variations for `Key` and `ModifierKey` are [here](../misc/config-types.md)

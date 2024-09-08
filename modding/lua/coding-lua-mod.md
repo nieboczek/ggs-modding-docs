@@ -14,9 +14,9 @@ For example I created a `MoneyPrinter` folder and put only `main.lua` in it's `S
 
 Add this to the end of `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods/mods.txt`: 
 ```
-[YOURMODFOLDERNAME] : 1 // [!code ++]
+MOD_NAME : 1 // [!code ++]
 ```
-and replace `[YOURMODFOLDERNAME]` with your mod's actual folder name.
+and replace `MOD_NAME` with your mod's actual folder name.
 
 Let's assume you want to create a mod that prints (writes) the current money to the GUI console when you press Shift+F2.
 ```lua

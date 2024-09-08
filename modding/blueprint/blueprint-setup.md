@@ -8,7 +8,7 @@ This guide will tell you how to setup Unreal Engine for modding with blueprints.
 Install [Unreal Engine 5.2](https://www.unrealengine.com/download).
 
 > [!WARNING]
-> You **MUST** use Unreal 5.2 as it is what the game runs on.
+> You **MUST** use Unreal Engine 5.2 as it is what the game runs on.
 
 Create a blank project named `Simulatorita`.
 
@@ -18,7 +18,7 @@ Go to `Edit > Project Settings > Packaging`, and ensure you have the following s
 
 ![Project Settings](../media/project_settings.png)
 
-Then, go to `Edit > Editor Preferences` and search for `Allow ChunkID assignmnets`
+Then, go to `Edit > Editor Preferences` and search for `Allow ChunkID assignments`
 
 ![Chunk Settings](../media/chunk_settings.png)
 
@@ -31,13 +31,13 @@ Right-click and create a new `Blueprint Class`.
 
 Choose the `Actor` class.
 
-![Actor class](../media/actor_class.png)
+![Actor Class](../media/actor_class.png)
 
 Once the Blueprint is created, name it `ModActor`.
 
 ![Modactor](../media/modactor.png)
 
-Next, right-click and create a `Miscallenaious > Data Asset` with the `PrimaryAssetLabel` class.
+Next, right-click and create a `Miscellaneous > Data Asset` with the `PrimaryAssetLabel` class.
 
 ![Data asset](../media/data_asset.png)
 
@@ -69,7 +69,8 @@ Drag off of the `Event Begin Play` node and search for `PrintToModLoader`.
 
 ![First Print](../media/first_print.png)
 
-In the message input type: `Mod Loaded!`.
+In the message input type: `Mod Loaded!`.  
+This will print `Mod Loaded!` when the mod loads.
 
 ![Mod Loaded Print](../media/mod_loaded_print.png)
 
@@ -78,7 +79,7 @@ Make sure to `Compile` your blueprint and then save your `Mod Actor`.
 ![Compile](../media/compile.png)
 
 Now you can build your mod!  
-Check out [the building guide](building-mods).
+Check out [the packaging guide](building-mods) to export your mod.
 
 > [!NOTE]
 > Some information and screenshots taken from [Dmgvol's UE Modding Guide](https://github.com/Dmgvol/UE_Modding/)
