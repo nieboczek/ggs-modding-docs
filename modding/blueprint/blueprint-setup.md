@@ -79,7 +79,7 @@ Make sure to `Compile` your blueprint and then save your `Mod Actor`.
 ![Compile](../media/compile.png)
 
 Now you can build your mod!  
-Check out [the packaging guide](building-mods) to export your mod.
+Check out [the packaging guide](packaging-mods) to export your mod.
 
 > [!NOTE]
 > Some information and screenshots taken from [Dmgvol's UE Modding Guide](https://github.com/Dmgvol/UE_Modding/)
