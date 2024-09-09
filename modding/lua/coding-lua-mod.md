@@ -32,7 +32,9 @@ RegisterKeyBind(Key.F2, { ModifierKey.SHIFT }, function()
     print(string.format("Money: %s", output.Money))
 end)
 ```
-You may ask, how do I make a mod that (example): makes a box disappear if another box of the same product has enough space to accommodate the items in the box that disappeared.  
+
+## More
+You may ask, how do I make a mod that (example): makes a box disappear if another box of the same product has enough space to accommodate the items in the box that disappeared?  
 I don't know, but you can use the VSCode's Search through multiple files feature to search for what you might need.
 
 Press Ctrl+Shift+F to open the search tab and type something like `Box` to see if there's anything useful.

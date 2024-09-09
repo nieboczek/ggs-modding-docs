@@ -14,7 +14,7 @@ If you want to keep your config, go to mod's folder, go to `Scripts` and move `c
 > The new version of the mod may have changed the config. The developer should notify when config was changed.
 
 Extract the contents from the new version's zip to `Mods`.
-You should see a pop up. Press `Replace the file in the destination`.
+You should see a pop up. Press `Replace the files in the destination`.
 
 ![Replace Files](../media/replace_files.png)
 

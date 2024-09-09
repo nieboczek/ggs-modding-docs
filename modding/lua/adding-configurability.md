@@ -27,8 +27,8 @@ return config
 It's useful to add comments to your config to explain what changing the config option does:
 ```lua
 local config = {
-    -- Delay between launches of nuclear bombs
-    delay = 69.5
+    -- Delay in seconds between customers saying things
+    delay = 1.25
 }
 return config
 ```

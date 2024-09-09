@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 # Searching game files
-This guide will tell you how to search gamefiles using FModel.
+This guide will tell you how to search game files using FModel.
 
 ## Installing FModel
 Install [FModel](https://fmodel.app/).
@@ -29,5 +29,5 @@ If you want to be able to preview audio files from the game, you will need to in
 To install, download the latest release and extract the files to `FModel/Output/.data/`.
 
 Now you should be able to search through the game files!
-- Gamefiles are in `Simulatorita-Windows.utoc`
+- Game files are in `Simulatorita-Windows.utoc`
 - Translations are in `Simulatorita-Windows.pak`

@@ -22,6 +22,9 @@ In that folder go to `Windows/Simulatorita/Content/Paks`.
 You should see three `pakchunk1-Windows` files with different extensions.
 Rename all of them to the name of your mod, keep the extensions.
 
+> [!WARNING]
+> The file names should have the same name as your mod's folder in Unreal Engine
+
 Move the mod files into `Grocery Store Simulator/Simulatorita/Content/Paks/LogicMods/`.
 When you start the game, the mod loader will automatically load the mods.
 
