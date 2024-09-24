@@ -49,7 +49,8 @@ export default defineConfig({
             text: 'Lua Modding',
             items: [
               { text: 'Coding a Lua mod', link: '/modding/lua/coding-lua-mod' },
-              { text: 'Adding configurability', link: '/modding/lua/adding-configurability' }
+              { text: 'Adding configurability', link: '/modding/lua/adding-configurability' },
+              { text: 'Coding tips', link: 'modding/lua/coding-tips' }
             ]
           },
           {
