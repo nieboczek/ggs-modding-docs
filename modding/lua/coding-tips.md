@@ -1,3 +1,6 @@
+---
+next: false
+---
 # Coding tips
 When searching through the Lua types, you may find a `GetSomething` function on a class, but it doesn't return anything.  
 To get a return value from a `GetSomething` function you need to:
@@ -11,6 +14,15 @@ mgr:GetMoney(out)
 -- Get the value of out.Money and print it out
 -- Money is the name of the parameter that the GetMoney function has
 print(string.format("Money: %s", out.Money))
+```
+
+When trying to use self from `RegisterHook`, you may encounter an UObject reference is nullptr error.
+To actually get self you need to:
+```lua
+RegisterHook("/Game/BPs/AI/Employees/BP_Employee.BP_Employee_C:ReceiveBeginPlay", function(self)
+    local employee = self:get()
+    -- do stuff here with the employee
+end)
 ```
 
 ## More

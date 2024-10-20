@@ -7,6 +7,7 @@ This guide will tell you how to make a simple Lua mod.
 ## Installing VSCode
 Download and install [Visual Studio Code](https://code.visualstudio.com/).
 Open VSCode in the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.
+Install the [Lua extension](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) in VSCode.
 
 You will want to create a mod folder with a name you want your mod to have, preferably using `PascalCase`.
 Create a `Scripts` folder in the folder you just made. Inside the `Scripts` folder you will want to make `main.lua` and optionally `config.lua` if you want your mod to be configurable.  

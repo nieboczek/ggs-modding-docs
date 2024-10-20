@@ -4,6 +4,10 @@ next: false
 # Updating mods
 This guide will tell you how to update mods and keeping your config
 
+## Using GSS Mod Manager
+Download the new version from [NexusMods](https://nexusmods.com/grocerystoresimulator).
+Click the Install mod button in GSS Mod Manager and edit the config to your needs.
+
 ## Installing new mod version
 Download the update from where you got the mod.  
 Go to the `Grocery Store Simulator/Simulatorita/Binaries/Win64/Mods` folder.
